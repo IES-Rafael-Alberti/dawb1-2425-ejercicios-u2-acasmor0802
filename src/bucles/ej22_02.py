@@ -20,10 +20,10 @@ def pedir_edad():
             comprobar_edad(edad)
         except ValueError as e:
             if edad is None:
-                print(f"**ERROR** {e}, intentalo de nuevo: ")
+                print("**ERROR** eso no es una edad valida, intentalo de nuevo: ")
             else:
                 edad = None
-                print("**ERROR** eso no es una edad valida, intentalo de nuevo")
+                print(f"**ERROR** {e} , intentalo de nuevo")
     return edad
 
 

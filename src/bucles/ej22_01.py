@@ -14,9 +14,9 @@ def pedir_palabra():
 
 def main():
     palabra = pedir_palabra()
-    hola = bucle(palabra)
-    hola = ', '.join(map(str, hola))
-    print(hola)
+    final = bucle(palabra)
+    final = ', '.join(map(str, final))
+    print(final)
 
 
 if __name__ == "__main__":
