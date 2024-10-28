@@ -28,10 +28,6 @@ def pedir_edad() -> int:
     return edad
 
 
-
-
-
-
 def mostrar_anios_cumplidos(edad: int):
     for i in range(1, edad + 1):
             print(i)
