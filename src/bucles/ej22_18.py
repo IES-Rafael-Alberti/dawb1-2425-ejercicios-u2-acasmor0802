@@ -47,7 +47,7 @@ def main():
             final = True
         else:
             lista.append(num)
-        print(suma(num))
+            print(suma(num))
     print(f"Los números {resultado(lista)} son pares")
 
 
