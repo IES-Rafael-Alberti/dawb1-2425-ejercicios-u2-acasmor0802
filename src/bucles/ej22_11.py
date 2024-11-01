@@ -1,10 +1,15 @@
+def reverir(palabra):
+    for letra in reversed(palabra):
+        print(letra)
+
+
 def pedir_palabra():
     palabra = input("Introduce una palabra: ")
-    return palabra
+    reverir(palabra)
 
 
 def main():
-    palabra = pedir_palabra()
+    pedir_palabra()
 
 
 if __name__ == "__main__":
