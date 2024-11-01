@@ -9,7 +9,7 @@ def limpiar():
         print(f"Problemas al intentar limpiar programa")
 
 
-def accion(opcion, programa):
+def accion(opcion):
     if opcion == 1:
         return print("texto")
     elif opcion == 2:
