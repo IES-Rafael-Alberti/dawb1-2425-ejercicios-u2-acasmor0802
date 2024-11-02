@@ -1,7 +1,7 @@
 def ingresar_monto():
     while True:
         try:
-            monto = float(input("Ingrese el monto de la compra en euros (0 para finalizar): "))
+            monto = float(input("Ingrese el monto de la compra en euros: "))
             return monto
         except ValueError:
             print("**ERROR**: Entrada no válida. Por favor, ingrese un número.")

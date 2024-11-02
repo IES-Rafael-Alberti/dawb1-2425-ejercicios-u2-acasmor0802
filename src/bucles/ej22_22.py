@@ -14,7 +14,7 @@ def calcular(num):
 def ingresar():
     while True:
         try:
-            num = int(input("Ingresa un número entero positivo (0 para salir): "))
+            num = int(input("Ingresa un número entero positivo: "))
             if num >= 0:
                 return num
             else:
