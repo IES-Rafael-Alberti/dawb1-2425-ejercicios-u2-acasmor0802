@@ -20,15 +20,15 @@ def pedir_edad() -> int:
 
 def mostrar_anios_cumplidos(edad: int):
     if edad < 18:
-        print("No eres mayor de edad")
+        return "No eres mayor de edad"
     else:
-        print("Eres mayor de edad")
+        return "Eres mayor de edad"
 
 
 def main():
     edad = pedir_edad()
     if edad != None:
-        mostrar_anios_cumplidos(edad)
+        print(mostrar_anios_cumplidos(edad))
 
 
 if __name__ == "__main__":

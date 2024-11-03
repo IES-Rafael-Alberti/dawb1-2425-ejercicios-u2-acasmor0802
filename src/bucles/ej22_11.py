@@ -1,15 +1,18 @@
 def reverir(palabra):
+    lista = []
     for letra in reversed(palabra):
-        print(letra)
+        lista.append(letra)
+    lista = "".join(map(str, lista))
+    return lista
 
 
 def pedir_palabra():
     palabra = input("Introduce una palabra: ")
-    reverir(palabra)
+    return reverir(palabra)
 
 
 def main():
-    pedir_palabra()
+    print(pedir_palabra())
 
 
 if __name__ == "__main__":
