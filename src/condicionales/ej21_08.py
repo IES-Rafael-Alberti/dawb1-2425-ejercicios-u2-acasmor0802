@@ -29,10 +29,12 @@ def recib_punt() -> float:
 
     return valor
 
+
 def main():
     pts = recib_punt()
     result = calc_din(pts)
     print(result)
+
 
 if __name__ == "__main__":
     main()
