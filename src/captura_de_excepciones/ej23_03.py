@@ -8,25 +8,20 @@ def obtener():
         except ValueError as e:
             print(f"**ERROR** {e}. Intenta de nuevo.")
 
+def cuenta_atras(numero):
+    cuenta = []
+    for n in range(numero, -1, -1):
+        cuenta.append(str(n))
+    return cuenta
 
-def generar_imp(numero):
-    impares = []
-    for n in range(1, numero + 1):
-        if n % 2 != 0:
-            impares.append(str(n))
-    return impares
-
-
-def mostrar_imp(impares):
-    resultado = ", ".join(impares)
+def mostrar_cuenta_atras(cuenta):
+    resultado = ", ".join(cuenta)
     return resultado
-
 
 def main():
     numero = obtener()
-    impares = generar_imp(numero)
-    print(mostrar_imp(impares))
-
+    cuenta = cuenta_atras(numero)
+    print(mostrar_cuenta_atras(cuenta))
 
 if __name__ == "__main__":
     main()
