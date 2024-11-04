@@ -1,5 +1,5 @@
 import pytest
-from src.captura_de_excepciones.ej23_02 import generar_imp
+from src.excepciones.ej23_02 import generar_imp
 
 @pytest.mark.parametrize(
     "numero, expected",

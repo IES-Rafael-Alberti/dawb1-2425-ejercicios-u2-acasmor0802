@@ -1,5 +1,5 @@
 import pytest
-from src.captura_de_excepciones.ej23_01 import mostrar_anios
+from src.excepciones.ej23_01 import mostrar_anios
 
 @pytest.mark.parametrize(
     "anios, expected",

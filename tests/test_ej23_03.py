@@ -1,5 +1,5 @@
 import pytest
-from src.captura_de_excepciones.ej23_03 import cuenta_atras
+from src.excepciones.ej23_03 import cuenta_atras
 
 @pytest.mark.parametrize(
     "numero, expected",
